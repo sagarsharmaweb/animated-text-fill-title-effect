@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Horizontal Text Fill</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script src="code.js"></script>
+</head>
+
+<body>
+
+<div class="textFeature">
+	<svg>
+
+		<rect class="bar" />
+		<rect class="textbox" />
+
+    <mask id="textMask">
+      <rect width="100%" height="100%" fill="#fff" x="0" y="0"/>
+      <text x="0%" y="30%">Enough of the</text>
+      <text x="0" y="55%">philosophy...</text>
+    </mask>
+
+  </svg>
+
+	<button class="pauseBtn">
+		<span>Start</span>
+		<span>Pause</span>
+	</button>
+</div>
+
+
+</body>
+</html>
